@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-@import '../Sass/typography';
 @import '../Sass/colors';
+@import '../Sass/typography';
+@import '../Sass/spacing';
 
 body{
     width: 100%;

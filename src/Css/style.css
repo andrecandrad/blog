@@ -669,10 +669,6 @@ body {
   background-color: #050607;
 }
 
-header {
-  padding: 8px 24px;
-}
-
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -694,6 +690,7 @@ header {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 8px 24px;
 }
 
 .border {
@@ -724,5 +721,25 @@ header {
   border-radius: 4px;
   color: #FAFCFC;
   outline: none;
+}
+
+.img-post {
+  width: 100%;
+  height: 200px;
+  background-color: #3E3F40;
+}
+
+.img-profile {
+  width: 56px;
+  height: 56px;
+  background-color: #4E4E50;
+  border-radius: 50%;
+}
+
+.container-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
 }
 /*# sourceMappingURL=style.css.map */
